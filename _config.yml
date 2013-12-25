@@ -2,4 +2,4 @@ name: Medeski Design
 markdown: redcarpet
 pygments: true
 baseurl: /medeskidesign
-permalink: /blog/:title
+permalink: /medeskidesign/:year/:month/:title
