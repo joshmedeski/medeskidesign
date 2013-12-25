@@ -1,0 +1,87 @@
+Title: Services
+----
+Text: 
+
+<section class="home-header">
+	<div class="row">
+		<div class="large-6 columns">
+			<h1>Great Design<br> Done Right</h1>
+			<h4><strong>Medeski Design</strong> is a one man team that provides graphic and website services.</h4>
+		</div>
+		<div class="large-6 columns text-center home-cta hide">
+			<h2>Free eBook</h2>
+			<p>Download the free ebook <strong>"Building a Better Web"</strong></p>
+			<form class="large-8 large-centered columns">
+				<input type="email" placeholder="Enter your email">
+				<input type="submit" class="success button expand" value="Download">
+			</form>
+		</div>
+	</div>
+</section>
+
+<div class="row">
+<ul class="small-block-grid-2 large-block-grid-4 text-center page-services">
+  <li>
+  	<h4>Responsive Web Design</h4>
+  	<hr>
+  	<p>I design websites for desktops, tablets, smartphones, and everything in between.</p>
+  </li>
+  <li>
+  	<h4>Front-End Development</h4>
+  	<hr>
+  	<p>Great design needs to be finished with great code. p.s. I love <a href="http://foundation.zurb.com" target="_blank">Foundation</a>.</p>
+  </li>
+  <li>
+  	<h4>Content Management</h4>
+  	<hr>
+  	<p>Wordpress is my go-to software, but I'm also knowledgeable in <a href="http://www.lifehack.org/articles/technology/the-beginners-guide-to-content-management-systems.html" target="_blank">other options</a>.</p>
+  </li>
+  <li>
+  	<h4>Email Marketing</h4>
+  	<hr>
+  	<p>Setup, campaigns, and integration for your email marketing.</p>
+  </li>
+  <li>
+  	<h4>Hosting</h4>
+  	<hr>
+  	<p>Powerful hosting for your website and emails to cover any size traffic.</p>
+  </li>
+  <li>
+  	<h4>Logo Design</h4>
+  	<hr>
+  	<p>Good branding starts with a strong logo. I provide redesigns and new logos.</p>
+  </li>
+  <li>
+  	<h4>Print Design</h4>
+  	<hr>
+  	<p>Print is not dead. I still love the feel of paper between my fingers. I design all types of print.</p>
+  </li>
+  <li>
+  	<h4>Copy</h4>
+  	<hr>
+  	<p>Don't know what to say, or how to say it? No problem. I provide writing services.</p>
+  </li>
+</ul>
+</div>
+
+<div class="row">
+  <div class="large-7 large-centered columns">
+<div id="wufoo-z7x3p3">
+Fill out my <a href="http://medeskidesign.wufoo.com/forms/z7x3p3">online form</a>.
+</div>
+<script type="text/javascript">var z7x3p3;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'medeskidesign', 
+'formHash':'z7x3p3', 
+'autoResize':true,
+'height':'1068',
+'async':true,
+'header':'show'};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { z7x3p3 = new WufooForm();z7x3p3.initialize(options);z7x3p3.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+  </div>
+</div>

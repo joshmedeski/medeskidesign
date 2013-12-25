@@ -1,0 +1,144 @@
+// Global Foundation Settings
+@import "settings";
+
+// Comment out this import if you don't want to use normalize
+@import "normalize";
+
+// Comment out this import if you are customizing you imports below
+@import "foundation";
+
+// Site Styles
+
+// Homepage Styles
+.home-header {
+	background-position: bottom;
+	background-image: url(../images/bg.jpg);
+	-webkit-box-shadow: inset 0 -15px 15px -15px #111;
+	-moz-box-shadow: inset 0 -15px 15px -15px #111;
+	box-shadow: inset 0 -15px 15px -15px #111;
+	padding: emCalc(90) 0 emCalc(160);
+	color: #fff;
+	h1, h4, h2 {
+		color: #fff;
+	}
+	h1 {
+		font-size: emCalc(54);
+		// margin-bottom: ;
+	}
+	h4 {
+		margin-top: emCalc(20);
+		margin-bottom: emCalc(15);
+		line-height: 1.8;
+		strong {
+			font-weight: 600;
+		}
+	}
+}
+
+.home-cta {
+	padding-top: emCalc(60);
+}
+
+.contact {
+	background: darken($primary-color, 10%);
+	padding: emCalc(15) 0;
+	h5 {
+		color: #fff;
+		margin-bottom: 0;
+	}
+	a {
+		color: #fff;
+		margin-bottom: 0;
+		&:hover { color: darken(#fff, 10%); }
+	}
+}
+
+// Top Bar
+
+.top-bar .has-form .button {
+	@include button($padding: $button-sml, $bg: $primary-color);
+}
+
+.top-bar .name h1 a {
+	@media (max-width: $topbar-breakpoint) {
+	padding-left: 10px;
+	width: 100%;
+	}
+}
+
+
+.top-bar, .top-bar.expanded .title-area {
+  @media (max-width: $topbar-breakpoint) {
+    background: $topbar-bg-mobile !important; 
+    ul.right {
+    	padding-top: 10px;
+    	li {
+      	@include grid-column($columns: 6);
+      	text-align: center;
+      	&:last-child {
+      		@include grid-column($columns: 12);
+      		.button {
+      			margin: 0;
+      		}
+      	}
+    	}
+  	}
+  }
+}
+
+
+.page-title {
+	// background: $primary-color;
+	background-position: bottom;
+	background-image: url(../images/bg.jpg);
+	-webkit-box-shadow: inset 0 -15px 15px -15px #111;
+	-moz-box-shadow: inset 0 -15px 15px -15px #111;
+	box-shadow: inset 0 -15px 15px -15px #111;
+	padding: emCalc(22) 0;
+	h1, h4 {
+		color: #fff;
+	}
+}
+
+article {
+	padding: emCalc(22) 0;
+}
+
+.page-services {
+	padding: emCalc(40) 0;
+	h4 {
+		font-size: 20px;
+		font-weight: 500;
+	}
+	hr {
+		margin: 7px 0;
+	}
+	p {
+		font-size: 14px;
+	}
+}
+
+img.profile {
+	float: right;
+	max-width: 200px;
+	padding: 0 0 5px 10px;
+}
+
+// Footer
+#footer {
+	background: #111;
+	color: #fff;
+	min-height: 45px;
+	padding: 0 15px;
+	p {
+		margin-bottom: 0;
+		padding-top: 10px;
+	}
+}
+.colophon {
+	padding-bottom: 10px;
+	@media #{$small} {
+		text-align: right;
+	}
+}
+

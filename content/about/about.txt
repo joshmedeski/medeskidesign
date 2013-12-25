@@ -1,0 +1,14 @@
+Title: About
+----
+Subtitle: Who runs this place?
+----
+Text: 
+
+(image: profile.png class: profile) When I was a boy, I used to draw all day (superheros were my favorite). I would fold paper cranes so small, you would need a maginfied glass to see the folds. And in college, I studied art and graphic design. You might call me a creative person.
+ 
+Today I still spend my time, as a full time graphic designer, building systems on the web, designing and developing websites, drawing illustrations, and more. And I haven't stopped learning. I love studying colors, typography, branding, marketing, content stragegies, art history, self-develpment, and more (just to name a few). I am constantly learning and growing as an artist and a business owner.
+ 
+All of this information I have taken in over many years makes me a resourceful individual. I strive to do my best with every project, and always have an abundance of platforms and tools that help me succeed. If you've read this far, thank you, I hope to work with you soon.
+ 
+with gratitude,
+Josh Medeski

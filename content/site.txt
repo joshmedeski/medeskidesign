@@ -1,0 +1,9 @@
+Title: Medeski Design
+----
+Author: Josh Medeski
+----
+Description: Great Design Done Right
+----
+Keywords: houston, graphic design, front-end development, designer
+----
+Copyright: © 2010-(date: Year) Medeski Design
