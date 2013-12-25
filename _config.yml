@@ -1,3 +1,4 @@
 name: Medeski Design
 markdown: redcarpet
 pygments: true
+root: http://joshmedeski.github.io/medeskidesign/
