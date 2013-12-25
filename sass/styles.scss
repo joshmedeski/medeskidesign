@@ -1,0 +1,88 @@
+// Site Styles
+
+.header--nav {
+	text-align: center;
+	line-height: 1.5;
+	padding: em-calc(10) 0;
+	font-size: em-calc(16);
+	@media #{$small} {
+		font-size: em-calc(20);
+	}
+	a {
+		@include single-transition;
+		text-transform: uppercase;
+		font-weight: 600;
+		color: $gray;
+		@media #{$landscape} {
+			font-size: em-calc(18);
+		}
+		&:hover {
+			color: $blue;
+		}
+	}
+}
+
+.site__title {
+	background: $tan;
+	text-align: center;
+	background-image: url(../images/books-tan.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+	padding: $global-padding 0;
+	border-top: 1px solid $section-border-color;
+	border-bottom: 1px solid $section-border-color;
+	h1 {
+		font-size: em-calc(50);
+		color: $red;
+		line-height: 1;
+		@media #{$small} {
+			font-size: em-calc(90);
+		}
+	}
+}
+
+.site__content {
+	padding: $global-padding 0;
+}
+
+.site__next {
+	background: $yellow;
+	padding: $global-padding/2 0;
+	text-align: center;
+	@include single-transition;
+	&:hover {
+		background: $blue;
+	}
+	&:hover h5 {
+		color: #fff;
+	}
+	h5 {
+		color: $gray;
+		font-size: em-calc(20);
+		@media #{$small} {
+			font-size: $global-padding;
+		}	
+	}
+}
+
+.site__footer {
+	background: $gray;
+	background-image: url(../images/office.png);
+	color: #dcdcdc;
+	padding: $global-padding*1.5 0;
+	p {
+		margin-bottom: 0;
+	}
+}
+
+.footer__logo {
+	margin-bottom: em-calc(20);
+}
+
+// Quick Fixes
+
+.panel {
+  border-color: #222;
+}
