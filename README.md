@@ -1,1 +1,0 @@
-# Medeski Design

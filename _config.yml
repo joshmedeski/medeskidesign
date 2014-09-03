@@ -1,5 +1,0 @@
-name: Medeski Design
-markdown: redcarpet
-pygments: true
-baseurl: /medeskidesign
-permalink: /:year/:month/:title
