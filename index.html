@@ -1,13 +1,115 @@
----
-layout: default
-title: Medeski Design
----
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telling Your Story</title>
+  <link rel="stylesheet" href="css/app.css" />
+  <script src="bower_components/modernizr/modernizr.js"></script>
+</head>
+<body>
+  <section class="top text-center">
+    <div class="row">
+      <div class="small-12 columns">
+        <h1>Custom Web Design for Bloggers</h1>
+        <h3 class="subheader">Telling Your Unique Story</h3>
+      </div>
+    </div>
+  </section>
+  <section class="main">
+    <div class="row">
+      <div class="medium-6 columns">
+        <img src="img/hero.jpg" alt="the hero shot" class="hero">
+      </div>
+      <div class="medium-6 columns">
+        <h3>Your Story Matters</h3>
+        <p>Everyone has a unique voice and a story that can shape the world. I help bring your website design to enhance your voice and help build a strong and meaningful brand.</p>
+        <ul class="benefits">
+          <li>One-of-a-Kind Web Design</li>
+          <li>WordPress Genesis Child Theme</li>
+          <li>Responsive</li>
+        </ul>
+        <a href="#" class="button cta" data-reveal-id="call-to-action">Tell Your Story</a>
+      </div>
+    </div>
+  </section>
+  <section class="testimonials">
+    <div class="row">
+      <div class="medium-1 columns">
+        <img src="img/whitney-hutten.jpg" alt="Mike" class="client">
+      </div>
+      <div class="medium-11 columns">
+        <p>He has a true passion to learn and to leverage all of the technology tools available to create the best</p>
+        <cite>- Whitney</cite>
+      </div>
+    </div>
+    <div class="row">
+      <div class="medium-1 columns">
+        <img src="img/mike-lazzari.jpg" alt="Mike" class="client">
+      </div>
+      <div class="medium-11 columns">
+        <p>He has a true passion to learn and to leverage all of the technology tools available to create the best</p>
+        <cite>- Mike</cite>
+      </div>
+    </div>
+    <div class="row">
+      <div class="medium-1 columns">
+        <img src="img/mark-twain.jpg" alt="Mark Twain Profile" class="client">
+      </div>
+      <div class="medium-11 columns">
+        <p>Josh is wonderful. His patients and attention to detail produced an exquisite product.</p>
+        <cite>- Mark Twain (Fictional)</cite>
+      </div>
+    </div>
+  </section>
 
-<div id="home">
-  <h1>Portfolio:</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+  <section class="pricing">
+    <div class="row">
+      <div class="medium-4 columns">
+        <ul class="pricing-table">
+          <li class="title">Newbie</li>
+          <li class="price">$1,083</li>
+          <li class="description">An awesome description</li>
+          <li class="bullet-item">WordPress Theme</li>
+          <li class="bullet-item">Call-to-Action Widget</li>
+          <li class="bullet-item">PDF Design</li>
+          <li class="cta-button"><a class="secondary button" href="#">Learn More</a></li>
+        </ul>
+      </div>
+      <div class="medium-4 columns">
+        <ul class="pricing-table">
+          <li class="title">Growing</li>
+          <li class="price">$2,575</li>
+          <li class="description">An awesome description</li>
+          <li class="bullet-item">All of "Newbie" +</li>
+          <li class="bullet-item">Logo Design</li>
+          <li class="bullet-item">Social Media Branding</li>
+          <li class="cta-button"><a class="button" href="#">Learn More</a></li>
+        </ul>
+      </div>
+      <div class="medium-4 columns">
+        <ul class="pricing-table">
+          <li class="title">Moving on Up!</li>
+          <li class="price">$5,132</li>
+          <li class="description">An awesome description</li>
+          <li class="bullet-item">All of "Newbie & Growing" +</li>
+          <li class="bullet-item">eCommerce Integration</li>
+          <li class="bullet-item">Business Cards</li>
+          <li class="cta-button"><a class="secondary button" href="#">Learn More</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div id="call-to-action" class="reveal-modal tiny" data-reveal>
+    <h2>Awesome. I have it.</h2>
+    <p class="lead">Your couch.  It is mine.</p>
+    <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
