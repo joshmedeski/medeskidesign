@@ -1,24 +1,443 @@
 ---
-title: Welcome
+title: Home
 layout: default
 ---
 
-<div class="home">
+<div class="various-content">
 
-  <h1 class="page-heading">Posts</h1>
+  <!-- SLIDER : begin -->
+  <div class="c-slider">
+    <div class="slide-list">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <!-- SLIDE 1 : begin -->
+      <div class="slide" style="background-image: url( 'images/slide_01.jpg' );">
+        <div class="slide-bg">
+          <div class="container">
+            <div class="slide-inner">
+              <div class="slide-content various-content textalign-center valign-bottom">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+                <div class="row">
+                  <div class="col-sm-10 col-sm-offset-1">
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+                    <h1><a href="blog-post-image.html">HTML Template for Creative Folks and Design Agencies</a></h1>
+                    <p class="fontsize-large">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p><a href="#about" class="c-button m-outline">Read More</a></p>
 
-</div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SLIDE 1 : end -->
+
+    </div>
+  </div>
+  <!-- SLIDER : end -->
+
+  <hr class="c-divider m-x-small m-transparent">
+
+  <!-- ABOUT SECTION : begin -->
+  <section class="c-section" id="about">
+    <div class="section-inner">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+
+            <h2>Why Choose Us?</h2>
+            <p class="lead">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet.</p>
+            <p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae <a href="#">sapien ut libero</a>.</p>
+
+          </div>
+          <div class="col-sm-4">
+
+            <h2>What You Get?</h2>
+
+            <!-- ICON BLOCK : begin -->
+            <div class="c-icon-block">
+              <i class="fa fa-html5"></i>
+              <h3>Colorful HTML5 Template</h3>
+              <p>For Creative Folks or Companies</p>
+            </div>
+            <!-- ICON BLOCK : end -->
+
+            <!-- ICON BLOCK : begin -->
+            <div class="c-icon-block">
+              <i class="fa fa-code"></i>
+              <h3>Clean and Valid Code</h3>
+              <p>Very Easy to Read and Customize</p>
+            </div>
+            <!-- ICON BLOCK : end -->
+
+            <!-- ICON BLOCK : begin -->
+            <div class="c-icon-block">
+              <i class="fa fa-paper-plane-o"></i>
+              <h3>Coded with SASS</h3>
+              <p>Create Custom Skins in Minutes</p>
+            </div>
+            <!-- ICON BLOCK : end -->
+
+          </div>
+          <div class="col-sm-4">
+
+            <!-- ACCORDION : begin -->
+            <ul class="c-accordion">
+              <li class="m-active">
+                <h3 class="accordion-title">Nulla consequat massa</h3>
+                <div class="accordion-content">
+                  <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+                </div>
+              </li>
+              <li>
+                <h3 class="accordion-title">Vivamus elementum semper</h3>
+                <div class="accordion-content">
+                  <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu.</p>
+                </div>
+              </li>
+              <li>
+                <h3 class="accordion-title">Etiam ultricies nisi vel</h3>
+                <div class="accordion-content">
+                  <p>Maecenas tempus, tellus eget condi men tum rhoncus.</p>
+                </div>
+              </li>
+            </ul>
+            <!-- ACCORDION : end -->
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ABOUT SECTION : end -->
+
+  <!-- GALLERY SECTION : begin -->
+  <section class="c-section" id="references">
+    <div class="section-inner">
+
+      <div class="c-gallery" data-layout="masonry">
+
+        <!-- GALLERY TOOLS : begin -->
+        <div class="gallery-tools">
+          <div class="container">
+            <div class="clearfix">
+
+              <!-- GALLERY FILTER : begin -->
+              <ul class="gallery-filter">
+                <li><button class="m-active" type="button" data-filter="*">all</button></li>
+                <li><button type="button" data-filter=".cat-animation">animation</button></li>
+                <li><button type="button" data-filter=".cat-print">print</button></li>
+                <li><button type="button" data-filter=".cat-pixelart">pixelart</button></li>
+                <li><button type="button" data-filter=".cat-flyers">flyers</button></li>
+              </ul>
+              <!-- GALLERY FILTER : end -->
+
+              <!-- MORE BUTTON : begin -->
+              <a href="portfolio-list-grid.html" class="more-btn c-button m-outline">View All Projects</a>
+              <!-- MORE BUTTON : end -->
+
+            </div>
+          </div>
+        </div>
+        <!-- GALLERY TOOLS : end -->
+
+        <!-- ITEM LIST : begin -->
+        <ul class="item-list">
+
+          <!-- ITEM : begin -->
+          <li class="item m-has-overlay m-animated cat-animation">
+            <a href="images/photo_01.jpg" class="item-image lightbox" title="Adipiscing elit"><img src="images/photo_01.jpg" alt=""></a>
+            <div class="item-info">
+              <h4>Adipiscing elit</h4>
+            </div>
+          </li>
+          <!-- ITEM : end -->
+
+          <!-- ITEM : begin -->
+          <li class="item m-has-overlay m-animated cat-flyers cat-print">
+            <a href="images/photo_02.jpg" class="item-image lightbox" title="Lorem ipsum"><img src="images/photo_02.jpg" alt=""></a>
+            <div class="item-info">
+              <h4>Lorem ipsum</h4>
+            </div>
+          </li>
+          <!-- ITEM : end -->
+
+          <!-- ITEM : begin -->
+          <li class="item m-has-overlay m-animated cat-animation">
+            <a href="http://vimeo.com/34389736" class="item-image lightbox-video" title="Dolor sit amet"><img src="images/photo_03.jpg" alt=""></a>
+            <div class="item-info">
+              <h4>Dolor sit amet</h4>
+            </div>
+          </li>
+          <!-- ITEM : end -->
+
+          <!-- ITEM : begin -->
+          <li class="item m-has-overlay m-animated cat-flyers cat-pixelart">
+            <a href="images/photo_04.jpg" class="item-image lightbox" title="Aenean commodo"><img src="images/photo_04.jpg" alt=""></a>
+            <div class="item-info">
+              <h4>Aenean commodo</h4>
+            </div>
+          </li>
+          <!-- ITEM : end -->
+
+          <!-- ITEM : begin -->
+          <li class="item m-has-overlay m-animated cat-animation">
+            <a href="images/photo_05.jpg" class="item-image lightbox" title="Donec quam felis"><img src="images/photo_05.jpg" alt=""></a>
+            <div class="item-info">
+              <h4>Donec quam felis</h4>
+            </div>
+          </li>
+          <!-- ITEM : end -->
+
+          <!-- ITEM : begin -->
+          <li class="item m-has-overlay m-animated cat-pixelart">
+            <a href="images/photo_06.jpg" class="item-image lightbox" title="Consectetuer"><img src="images/photo_06.jpg" alt=""></a>
+            <div class="item-info">
+              <h4>Consectetuer</h4>
+            </div>
+          </li>
+          <!-- ITEM : end -->
+
+          <!-- ITEM : begin -->
+          <li class="item m-has-overlay m-animated cat-animation">
+            <a href="images/photo_07.jpg" class="item-image lightbox" title="Ligula eget dolor"><img src="images/photo_07.jpg" alt=""></a>
+            <div class="item-info">
+              <h4>Ligula eget dolor</h4>
+            </div>
+          </li>
+          <!-- ITEM : end -->
+
+          <!-- ITEM : begin -->
+          <li class="item m-has-overlay m-animated cat-print">
+            <a href="http://vimeo.com/39493181" class="item-image lightbox-video" title="Aenean massa"><img src="images/photo_08.jpg" alt=""></a>
+            <div class="item-info">
+              <h4>Aenean massa</h4>
+            </div>
+          </li>
+          <!-- ITEM : end -->
+
+          <!-- ITEM : begin -->
+          <li class="item m-has-overlay m-animated cat-flyers cat-print">
+            <a href="images/photo_09.jpg" class="item-image lightbox" title="Penatibus et magnis"><img src="images/photo_09.jpg" alt=""></a>
+            <div class="item-info">
+              <h4>Penatibus et magnis</h4>
+            </div>
+          </li>
+          <!-- ITEM : end -->
+
+          <!-- ITEM : begin -->
+          <li class="item m-has-overlay m-animated cat-animation cat-pixelart">
+            <a href="images/photo_10.jpg" class="item-image lightbox" title="Sociis natoque"><img src="images/photo_10.jpg" alt=""></a>
+            <div class="item-info">
+              <h4>Sociis natoque</h4>
+            </div>
+          </li>
+          <!-- ITEM : end -->
+
+          <!-- ITEM : begin -->
+          <li class="item m-has-overlay m-animated cat-animation">
+            <a href="images/photo_11.jpg" class="item-image lightbox" title="Dis parturient"><img src="images/photo_11.jpg" alt=""></a>
+            <div class="item-info">
+              <h4>Dis parturient</h4>
+            </div>
+          </li>
+          <!-- ITEM : end -->
+
+          <!-- ITEM : begin -->
+          <li class="item m-has-overlay m-animated cat-pixelart">
+            <a href="images/photo_12.jpg" class="item-image lightbox" title="Nascetur ridiculus"><img src="images/photo_12.jpg" alt=""></a>
+            <div class="item-info">
+              <h4>Nascetur ridiculus</h4>
+            </div>
+          </li>
+          <!-- ITEM : end -->
+
+        </ul>
+        <!-- ITEM LIST : end -->
+
+      </div>
+
+    </div>
+  </section>
+  <!-- GALLERY SECTION : end -->
+
+  <!-- TESTIMONIALS SECTION : begin -->
+  <section class="c-section" id="testimonials">
+    <div class="section-inner">
+
+      <header class="section-header textalign-center">
+        <div class="container">
+          <h2>Client Testimonials</h2>
+        </div>
+      </header>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1">
+
+            <!-- TESTIMONIAL : begin -->
+            <div class="c-testimonial m-portrait-on-left" data-inview-anim="fadeInLeft">
+              <div class="testimonial-inner">
+                <p class="testimonial-portrait"><img src="images/client_01.jpg" alt=""></p>
+                <blockquote>
+                  <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
+                  <footer>
+                    <strong>Tommy Mars</strong>, Designer
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+            <!-- TESTIMONIAL : end -->
+
+            <hr class="c-divider m-large">
+
+            <!-- TESTIMONIAL : begin -->
+            <div class="c-testimonial m-portrait-on-right" data-inview-anim="fadeInLeft">
+              <div class="testimonial-inner">
+                <p class="testimonial-portrait"><img src="images/client_02.jpg" alt=""></p>
+                <blockquote>
+                  <p>Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+                  <footer>
+                    <strong>Floor Simons</strong>, Startup CEO
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+            <!-- TESTIMONIAL : end -->
+
+            <hr class="c-divider m-large">
+
+            <!-- TESTIMONIAL : begin -->
+            <div class="c-testimonial m-portrait-on-left" data-inview-anim="fadeInLeft">
+              <div class="testimonial-inner">
+                <p class="testimonial-portrait"><img src="images/client_03.jpg" alt=""></p>
+                <blockquote>
+                  <p>Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+                  <footer>
+                    <strong>Floor Simons</strong>, Startup CEO
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+            <!-- TESTIMONIAL : end -->
+
+          </div>
+        </div>
+
+        <hr class="c-divider m-small m-transparent">
+        <p class="textalign-center"><a href="contact.html" class="c-button m-outline">Become our client</a></p>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- TESTIMONIALS SECTION : end -->
+
+  <!-- PARALLAX SECTION : begin -->
+  <section class="c-parallax-section m-dynamic" style="background-image: url( 'images/parallax_section_bg.jpg' );" data-videobg-id="KJO88Qhxwv4">
+    <div class="section-inner">
+
+      <header class="section-header textalign-center">
+        <div class="container">
+          <h2>New Horizons Await</h2>
+        </div>
+      </header>
+
+      <div class="container">
+        <p class="textalign-center fontsize-medium max-width-800 margin-sides-auto">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided.</p>
+        <p class="textalign-center"><a href="http://themeforest.net/user/LubosVolovar/portfolio?ref=LubosVolovar" class="c-button m-outline m-medium">Buy Vibes On ThemeForest</a></p>
+      </div>
+
+    </div>
+  </section>
+  <!-- PARALLAX SECTION : end -->
+
+  <!-- CONTACT SECTION : begin -->
+  <section class="c-section" id="contact">
+    <div class="section-inner">
+
+      <header class="section-header textalign-center">
+        <div class="container">
+          <h2>Get In Touch</h2>
+        </div>
+      </header>
+
+      <div class="container">
+
+        <!-- CONTACT FORM : begin -->
+        <form id="contact-form" class="default-form m-ajax-form" action="ajax/contact-form.php" method="post" >
+          <input type="hidden" name="contact-form">
+
+          <!-- FORM VALIDATION ERROR MESSAGE : begin -->
+          <p class="c-alert-message m-warning m-validation-error" style="display: none;"><i class="ico fa fa-exclamation-circle"></i>Please fill in all required (*) fields.</p>
+          <!-- FORM VALIDATION ERROR MESSAGE : end -->
+
+          <!-- SENDING REQUEST ERROR MESSAGE : begin -->
+          <p class="c-alert-message m-warning m-request-error" style="display: none;"><i class="ico fa fa-exclamation-circle"></i>There was a connection problem. Try again later.</p>
+          <!-- SENDING REQUEST ERROR MESSAGE : end -->
+
+          <div class="row">
+            <div class="col-sm-4">
+
+              <!-- NAME FIELD : begin -->
+              <div class="form-field">
+                <label for="contact-name">Your Name <span>*</span></label>
+                <input id="contact-name" name="contact-name" class="m-required">
+              </div>
+              <!-- NAME FIELD : end -->
+
+              <!-- EMAIL FIELD : begin -->
+              <div class="form-field">
+                <label for="contact-email">Your Email Address <span>*</span></label>
+                <input id="contact-email" name="contact-email" class="m-required m-email">
+              </div>
+              <p style="display: none;">
+                <label for="contact-email-hp">Re Email Address</label>
+                <input id="contact-email-hp" name="contact-email-hp">
+              </p>
+              <!-- EMAIL FIELD : end -->
+
+              <!-- PHONE FIELD : begin -->
+              <div class="form-field">
+                <label for="contact-phone">Your Phone Number</label>
+                <input id="contact-phone" name="contact-phone">
+              </div>
+              <!-- PHONE FIELD : end -->
+
+            </div>
+            <div class="col-sm-8">
+
+              <!-- SUBJECT FIELD : begin -->
+              <div class="form-field">
+                <label for="contact-subject">Message Subject</label>
+                <input id="contact-subject" name="contact-subject">
+              </div>
+              <!-- SUBJECT FIELD : end -->
+
+              <!-- MESSAGE FIELD : begin -->
+              <div class="form-field">
+                <label for="contact-message">Message <span>*</span></label>
+                <textarea id="contact-message" name="contact-message" class="m-required"></textarea>
+              </div>
+              <!-- MESSAGE FIELD : end -->
+
+              <!-- SUBMIT BUTTON : begin -->
+              <div class="form-field">
+                <button class="submit-btn c-button" type="submit" data-label="Send Message" data-loading-label="Sending...">Send Message</button>
+              </div>
+              <!-- SUBMIT BUTTON : end -->
+
+            </div>
+          </div>
+
+        </form>
+        <!-- CONTACT FORM : end -->
+
+      </div>
+
+    </div>
+  </section>
+  <!-- CONTACT SECTION : end -->

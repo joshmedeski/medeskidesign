@@ -1,0 +1,22 @@
+<!-- SIDEBAR LINKS : begin -->
+<div class="widget links-widget">
+  <h3 class="widget-title">Categories</h3>
+  <div class="widget-content">
+
+    <ul>
+      {% assign tags_list = site.categories %}
+        {% if tags_list.first[0] == null %}
+          {% for tag in tags_list %}
+            <li><a href="#{{ tag }}">{{ tag | capitalize }}</a> <span>({{ site.tags[tag].size }} posts)</span></li>
+          {% endfor %}
+        {% else %}
+      {% for tag in tags_list %}
+        <li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }}</a> <span>({{ tag[1].size }} posts)</span></li>
+        {% endfor %}
+      {% endif %}
+      {% assign tags_list = nil %}
+    </ul>
+
+  </div>
+</div>
+<!-- SIDEBAR LINKS : end -->

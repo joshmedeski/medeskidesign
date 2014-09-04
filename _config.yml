@@ -9,3 +9,6 @@ github_username:  joshmedeski
 
 # Build settings
 markdown: kramdown
+
+# Outputting
+permalink: /:year/:month/:day/:title.html
